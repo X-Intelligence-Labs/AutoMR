@@ -32,7 +32,7 @@ This library addresses these challenges by simplifying the processes of model tr
 - [License](#license)
 
 ## Library Structure
-[dependencies.pdf](https://github.com/user-attachments/files/18747135/dependencies.pdf)
+![Library Structure](figure/dependencies.pdf)
 
 ## Installation
 
