@@ -23,14 +23,10 @@ This library addresses these challenges by simplifying the processes of model tr
 - [Pipeline Process](#pipeline-process)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Usage](#usage)
+- [Customized Usage](#usage)
   - [Data Preparation](#data-preparation)
-  - [Model Definition](#model-definition)
-  - [Training](#training)
-  - [Evaluation](#evaluation)
-  - [Hyperparameter Tuning](#hyperparameter-tuning)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Deployment](#model-training)
+
 
 ## Library Structure
 ![Library Structure](figure/dependencies.png)
@@ -39,21 +35,31 @@ This library addresses these challenges by simplifying the processes of model tr
 ![Pipeline Process](figure/process.png)
 
 ## Installation
+It is recommended to use a virtual environment to manage dependencies. You can install the required packages using:
+```sh
+# Create and activate a virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
 
-To install the library, use the following command:
-
-```bash
-pip install AutoMR
+# Install dependencies
+pip install -r requirements.txt
 
 ## Quick Start
+We have integrated 10 public datasets including SHREC2021, MHEALTH, UCI-HAR, DB4, Berkeley-MHAD, LMDHG, OPPOTUNITY S1, OPPOTUNITY S2, OPPOTUNITY S3, OPPOTUNITY S4. Beginners could start from MHEALTH and LMDHG.
 
-## Data Preparation
+To initiate the training process on the * dataset:
 
-## Model Definition
+- **With manual hyperparameter tuning**, run:
+  ```sh
+  python main_*.py
 
-## Training
+- **With automatic hyperparameter tuning**, run:
+  ```sh
+  python main_*_Auto.py
 
-## Evaluation
+## Customized Usage
+You can employ your own dataset
 
-## Hyperparameter Tuning
+
 
