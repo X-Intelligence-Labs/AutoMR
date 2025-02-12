@@ -32,7 +32,8 @@ This library addresses these challenges by simplifying the processes of model tr
 - [License](#license)
 
 ## Library Structure
-[View Dependencies PDF via Google Docs](https://docs.google.com/viewer?url=https://github.com/liquora/AutoMR/main/figure/dependencies.pdf)
+## Library Structure
+![Library Structure](figure/dependencies.png)
 
 ## Installation
 
