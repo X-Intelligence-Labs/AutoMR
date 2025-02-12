@@ -20,6 +20,7 @@ This library addresses these challenges by simplifying the processes of model tr
 
 ## Table of Contents
 - [Library Structure](#library-structure)
+- [Pipeline Process](#pipeline-process)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Usage](#usage)
@@ -32,8 +33,10 @@ This library addresses these challenges by simplifying the processes of model tr
 - [License](#license)
 
 ## Library Structure
-## Library Structure
 ![Library Structure](figure/dependencies.png)
+
+## Pipeline Process
+![Pipeline Process](figure/process.png)
 
 ## Installation
 
