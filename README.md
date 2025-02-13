@@ -37,6 +37,7 @@ This library addresses these challenges by simplifying the processes of model tr
 ## Installation
 ![installation]
 It is recommended to use a virtual environment to manage dependencies. You can install the required packages using:
+```sh
 # Create and activate a virtual environment (optional)
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
@@ -44,6 +45,7 @@ venv\Scripts\activate     # On Windows
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 ## Quick Start
 ![quick-start]
