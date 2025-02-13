@@ -61,7 +61,21 @@ To initiate the training process on the * dataset:
 
 ## Customized Usage
 
-You can employ your own dataset by following the format supported in `dataset_module.py`.
+You can employ your own dataset by following the format supported in `dataset_module.py`. Remember to difine your own dataset label in dataset_module.py like:
+BERKELEY_NAME =[
+       "Jumping in place",        # 0
+    "Jumping jacks",              # 1
+    "Bending - hands up all the way down",  # 2
+    "Punching (boxing)",          # 3
+    "Waving - two hands",         # 4
+    "Waving - one hand (right)",  # 5
+    "Clapping hands",             # 6
+    "Throwing a ball",            # 7
+    "Sit down then stand up",     # 8
+    "Sit down",                   # 9
+    "Stand up",                   # 10
+    "T-pose"                      # 11
+] 
 
 ### Supported Data Formats
 
