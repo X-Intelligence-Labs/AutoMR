@@ -24,8 +24,7 @@ This library addresses these challenges by simplifying the processes of model tr
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Customized Usage](#usage)
-  - [Data Preparation](#data-preparation)
-  - [Deployment](#model-training)
+- [Result](#result)
 
 
 ## Library Structure
@@ -115,3 +114,9 @@ BERKELEY_NAME =[
 - **Data Shape**: Each image is converted into a 2D array.
 - **Labels**: Labels are extracted from the filename, representing the gesture for each image.
 - **Supported Modality**: Image data.
+
+## Result
+The overall performance of Quartznet on 10 datasets:
+![Result](#result)(figure/overall_accuracy.png)
+The Ablation study result comparing automatic and manual hyperparameter tuning across ten dataset:
+![Result](#result)(figure/ablation.png)
