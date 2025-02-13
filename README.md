@@ -45,7 +45,7 @@ venv\Scripts\activate     # On Windows
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 
 ## Quick Start
 ![quick-start]
