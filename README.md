@@ -35,8 +35,8 @@ This library addresses these challenges by simplifying the processes of model tr
 ![Pipeline Process](figure/process.png)
 
 ## Installation
+![installation]
 It is recommended to use a virtual environment to manage dependencies. You can install the required packages using:
-```sh
 # Create and activate a virtual environment (optional)
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
@@ -46,6 +46,7 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 
 ## Quick Start
+![quick-start]
 We have integrated 10 public datasets including SHREC2021, MHEALTH, UCI-HAR, DB4, Berkeley-MHAD, LMDHG, OPPOTUNITY S1, OPPOTUNITY S2, OPPOTUNITY S3, OPPOTUNITY S4. Beginners could start from MHEALTH and LMDHG.
 
 To initiate the training process on the * dataset:
