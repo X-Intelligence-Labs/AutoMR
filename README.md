@@ -35,7 +35,6 @@ This library addresses these challenges by simplifying the processes of model tr
 ![Pipeline Process](figure/process.png)
 
 ## Installation
-![installation]
 It is recommended to use a virtual environment to manage dependencies. You can install the required packages using:
 ```sh
 # Create and activate a virtual environment (optional)
@@ -48,7 +47,6 @@ pip install -r requirements.txt
 ```
 
 ## Quick Start
-![quick-start]
 We have integrated 10 public datasets including SHREC2021, MHEALTH, UCI-HAR, DB4, Berkeley-MHAD, LMDHG, OPPOTUNITY S1, OPPOTUNITY S2, OPPOTUNITY S3, OPPOTUNITY S4. Beginners could start from MHEALTH and LMDHG.
 
 To initiate the training process on the * dataset:
@@ -62,7 +60,37 @@ To initiate the training process on the * dataset:
   python main_*_Auto.py
 
 ## Customized Usage
-You can employ your own dataset
-
-
+You can employ your own dataset following the format as supported in the dataset_module.py
+Customized Usage: Supported Data Formats
+	1.	SHREC2021 Dataset
+	•	Data Format: Continuous gesture data, where each gesture is labeled from its start to end time.
+	•	Input Data: Each gesture is represented by sensor data from a time window.
+	•	Sensor Data: The data may consist of different types (IMU, joint data, EMG), depending on the selected modality.
+	•	Data Shape: Each gesture is represented by data in the shape of (samples, features).
+	•	Labels: Each gesture segment (time window) is labeled with a gesture class.
+	•	Supported Modalities: IMU, Joint Data (JOINT), EMG.
+	2.	UCI HAR Dataset
+	•	Data Format: Each row of data corresponds to a clearly defined label, independent of time periods.
+	•	Input Data: Sensor data for each sample, using the IMU modality.
+	•	Data Shape: (samples, features), where each sample represents a single action.
+	•	Labels: Each row corresponds to a label representing an action (e.g., walking, running, etc.).
+	•	Supported Modality: IMU.
+	3.	DB4 Dataset
+	•	Data Format: Each row of data corresponds to a specific labeled action.
+	•	Input Data: Sensor data can be in the EMG modality.
+	•	Data Shape: (samples, features), with each sample representing a single action.
+	•	Labels: Each row of data corresponds to an action label.
+	•	Supported Modality: EMG.
+	4.	MHEALTH Dataset
+	•	Data Format: Each row of data corresponds to a clearly defined label, independent of time periods.
+	•	Input Data: Sensor data using the IMU modality.
+	•	Data Shape: (samples, features), where each sample represents a single action.
+	•	Labels: Each row corresponds to an action label.
+	•	Supported Modality: IMU.
+	5.	LMDHG Dataset
+	•	Data Format: Image data, where the label corresponds to the gesture for each image.
+	•	Input Data: Image data in .png, .jpg, or .jpeg formats.
+	•	Data Shape: Each image is converted into a 2D array.
+	•	Labels: Labels are extracted from the filename, representing the gesture for each image.
+	•	Supported Modality: Image data.
 
