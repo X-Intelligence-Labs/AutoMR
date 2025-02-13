@@ -116,7 +116,7 @@ BERKELEY_NAME =[
 - **Supported Modality**: Image data.
 
 ## Result
-The overall performance of Quartznet on 10 datasets:
+-The overall performance of Quartznet on 10 datasets:
 ![Result](figure/overall_accuracy.png)
-The Ablation study result comparing automatic and manual hyperparameter tuning across ten dataset:
+-The Ablation study result comparing automatic and manual hyperparameter tuning across ten dataset:
 ![Result](figure/ablation.png)
