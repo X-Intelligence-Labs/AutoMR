@@ -117,6 +117,6 @@ BERKELEY_NAME =[
 
 ## Result
 The overall performance of Quartznet on 10 datasets:
-![Result](#result)(figure/overall_accuracy.png)
+![Result](figure/overall_accuracy.png)
 The Ablation study result comparing automatic and manual hyperparameter tuning across ten dataset:
-![Result](#result)(figure/ablation.png)
+![Result](figure/ablation.png)
