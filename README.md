@@ -61,7 +61,7 @@ To initiate the training process on the * dataset:
 
 ## Customized Usage
 
-You can employ your own dataset by following the format supported in `dataset_module.py`. Remember to difine your own dataset label in dataset_module.py like:
+You can employ your own dataset by following the format supported in `dataset_module.py`, and then inherit from existed class. Remember to difine your own dataset label in dataset_module.py like:
 ```
 BERKELEY_NAME =[
     "Jumping in place",        # 0
