@@ -62,7 +62,7 @@ To initiate the training process on the * dataset:
 ## Customized Usage
 
 You can employ your own dataset by following the format supported in `dataset_module.py`. Remember to difine your own dataset label in dataset_module.py like:
-### BERKELEY_NAME =[
+``` BERKELEY_NAME =[
        "Jumping in place",        # 0
     "Jumping jacks",              # 1
     "Bending - hands up all the way down",  # 2
