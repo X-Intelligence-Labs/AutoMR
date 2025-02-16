@@ -13,7 +13,7 @@ from dataset_module import DB4_dataset
 from model_factory_module import prepare_model
 from train_module import TrainUnit
 from augmentation import DataAugmentor
-from AutoML_hyperparameter import get_best_hyperparameters
+from AutoMR_hyperparameter import get_best_hyperparameters
 import numpy as np
 
 # Define the data type for a batch
