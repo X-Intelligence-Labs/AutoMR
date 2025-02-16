@@ -24,7 +24,7 @@ from model_factory_module import prepare_model
 from train_module import TrainUnit
 from augmentation import DataAugmentor
 import numpy as np
-from AutoMR_hyperparameter import get_best_hyperparameters
+from AutoML_hyperparameter import get_best_hyperparameters
 
 # Instantiate the training dataset
 Batch = Tuple[torch.Tensor, torch.Tensor]
