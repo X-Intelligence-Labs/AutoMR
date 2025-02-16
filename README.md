@@ -24,6 +24,7 @@ This library addresses these challenges by simplifying the processes of model tr
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Customized Usage](#usage)
+- [Dataset](#dataset)
 - [Result](#result)
 
 
@@ -114,6 +115,10 @@ BERKELEY_NAME =[
 - **Data Shape**: Each image is converted into a 2D array.
 - **Labels**: Labels are extracted from the filename, representing the gesture for each image.
 - **Supported Modality**: Image data.
+
+## Dataset
+
+The dataset and preprocess javacript can be accessed at https://drive.google.com/drive/folders/1MskaqApNcYAET2xRKCELz3A6PjsyQi7J?usp=drive_link
 
 ## Result
 ### Overall accuracy comparison between AutoMR and SOTA models across ten datasets
