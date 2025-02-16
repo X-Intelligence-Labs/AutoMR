@@ -9,7 +9,7 @@ from torchtnt.framework.callbacks.tqdm_progress_bar import TQDMProgressBar
 from dataset_module import Shrec2021Dataset, Modality, SHREC_NAME
 from model_factory_module import prepare_model
 from train_module import TrainUnit
-from AutoML_hyperparameter import get_best_hyperparameters
+from AutoMR_hyperparameter import get_best_hyperparameters
 from torchtnt.utils import init_from_env, seed
 import os
 from augmentation import DataAugmentor
