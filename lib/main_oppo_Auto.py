@@ -14,7 +14,7 @@ from dataset_module import Modality, OPPO_NAME, mhealth_dataset
 from model_factory_module import prepare_model
 from train_module import TrainUnit
 from augmentation import DataAugmentor
-from AutoMR_hyperparameter import get_best_hyperparameters
+from AutoML_hyperparameter import get_best_hyperparameters
 
 # Define the Batch type for better clarity
 Batch = Tuple[torch.Tensor, torch.Tensor]
