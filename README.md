@@ -118,8 +118,7 @@ BERKELEY_NAME =[
 
 ## Dataset
 
-The dataset and preprocess script can be accessed at https://drive.google.com/drive/folders/1MskaqApNcYAET2xRKCELz3A6PjsyQi7J?usp=drive_link
-
+The dataset and preprocess script can be accessed at https://drive.google.com/file/d/1HxDLMghtqJrws4KaVeuVDFu5iBNLBYKI/view?usp=drive_link
 ## Result
 ### Overall accuracy comparison between AutoMR and SOTA models across ten datasets
 ![Result](figure/overall_accuracy.png)
